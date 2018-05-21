@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class Clock : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public Transform hoursTransform, minutesTransform, secondsTransform;
+    private void Awake()
+    {
+        
+    }
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
