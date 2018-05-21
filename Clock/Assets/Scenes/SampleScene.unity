@@ -1075,7 +1075,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: d52f3f9c0b3b4774d89c79b6bc84375f, type: 2}
+  - {fileID: 2100000, guid: c8dcfd7548327b8439cb800f6c3b323b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1342,6 +1342,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 23610693236946178, guid: 541996090cfa9fe43ae1c745e49c6a01,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c8dcfd7548327b8439cb800f6c3b323b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 541996090cfa9fe43ae1c745e49c6a01, type: 2}
   m_IsPrefabParent: 0
@@ -1492,7 +1497,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: d52f3f9c0b3b4774d89c79b6bc84375f, type: 2}
+  - {fileID: 2100000, guid: c8dcfd7548327b8439cb800f6c3b323b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1722,6 +1727,7 @@ MonoBehaviour:
   hoursTransform: {fileID: 761206033}
   minutesTransform: {fileID: 1921637034}
   secondsTransform: {fileID: 2074547885}
+  continuous: 0
 --- !u!1 &2144256557
 GameObject:
   m_ObjectHideFlags: 0
